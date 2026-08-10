@@ -1,0 +1,35 @@
+name: Feature request
+description: Suggest an idea for QuickCut, ArtKit, or Softkit
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: app
+    attributes:
+      label: App
+      options:
+        - QuickCut
+        - ArtKit
+        - Softkit website
+        - Softkit (kit-wide)
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / opportunity
+      description: What are you trying to do?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What would you like Softkit to add or change?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Optional.

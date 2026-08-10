@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Softkit website
+    url: https://softkit.web.app
+    about: Product pages and downloads for QuickCut and ArtKit
+  - name: Email support
+    url: mailto:support@victorise.com
+    about: Private support questions

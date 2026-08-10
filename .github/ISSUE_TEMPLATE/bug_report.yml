@@ -1,0 +1,33 @@
+name: Bug report
+description: Something isn’t working as expected
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: app
+    attributes:
+      label: App
+      options:
+        - QuickCut
+        - ArtKit
+        - Softkit website
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Steps to reproduce, expected vs actual.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version / platform
+      placeholder: "e.g. QuickCut 0.1.0 · macOS 15 · Apple silicon"
+  - type: textarea
+    id: extras
+    attributes:
+      label: Screenshots or logs
+      description: Optional — paste text or describe attachments.

@@ -1,0 +1,35 @@
+name: Source access request
+description: Ask for access to private Softkit source (community / collaboration)
+title: "[Source access]: "
+labels: ["source-access"]
+body:
+  - type: dropdown
+    id: app
+    attributes:
+      label: Which codebase?
+      options:
+        - QuickCut (desktop)
+        - QuickCut (mobile)
+        - ArtKit
+        - Softkit website
+        - Multiple / unsure
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why do you want access?
+      description: How do you plan to use or contribute to the code? (learning, contribution, audit, integration, etc.)
+    validations:
+      required: true
+  - type: input
+    id: github
+    attributes:
+      label: Your GitHub username
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Optional links, prior open-source work, or constraints.
