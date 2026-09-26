@@ -1,5 +1,5 @@
 name: Source access request
-description: Ask for access to private Softkit source (community / collaboration)
+description: Ask for access to private Softkit source (community / collaboration). Note: Your request will be publicly visible. Do not include sensitive personal information.
 title: "[Source access]: "
 labels: ["source-access"]
 body:

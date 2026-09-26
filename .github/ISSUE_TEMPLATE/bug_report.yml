@@ -30,4 +30,4 @@ body:
     id: extras
     attributes:
       label: Screenshots or logs
-      description: Optional — paste text or describe attachments.
+      description: "Optional — paste text or describe attachments. ⚠️ Do not include sensitive information like API keys, passwords, or personal data."
