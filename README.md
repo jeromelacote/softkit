@@ -34,6 +34,8 @@ Please pick the product (**QuickCut**, **ArtKit**, or **website**) when filing s
 Website: [softkit.web.app](https://softkit.web.app)  
 Email: [support@victorise.com](mailto:support@victorise.com)
 
+> **Note:** All linked websites (softkit.web.app, softkit-artkit.web.app) are official Softkit properties. Report any suspicious content or domain issues to support.
+
 ## Labels
 
 - `quickcut` / `artkit` / `website` — product area
